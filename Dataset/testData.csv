@@ -1,0 +1,13 @@
+sourceID,sourceAddress,sourceType,sourceLocation,destinationServiceAddress,destinationServiceType,destinationLocation,accessedNodeAddress,accessedNodeType,operation,value,timestamp
+lightcontrol2,/agent2/lightcontrol2,/lightControler,BedroomParents,/agent2/lightcontrol2,/lightControler,BedroomParents,/agent2/lightcontrol2,/lightControler,registerService,none,1520031600000
+lightcontrol3,/agent3/lightcontrol3,/lightControler,Dinningroom,/agent3/lightcontrol3,/lightControler,Dinningroom,/agent3/lightcontrol3,/lightControler,registerService,none,1520031603269
+lightcontrol7,/agent2/lightcontrol7,/lightControler,BedroomParents,/agent1/movement1,/movementSensor,BedroomChildren,/agent1/movement1/movement,/derived/boolean,read,1,1520045970346
+lightcontrol1,/agent1/lightcontrol1,/lightControler,BedroomChildren,/agent1/movement1,/movementSensor,BedroomChildren,/agent1/movement1/movement,/derived/boolean,read,0,1520040030051
+lightcontrol1,/agent1/lightcontrol1,/lightControler,BedroomChildren,/agent1/movement1,/movementSensor,BedroomChildren,/agent1/movement1/movement,/derived/boolean,read,0,1520040030052
+tempin28,/agent28/tempin28,/sensorService,room_9,/agent28/tempin28,/sensorService,room_9,/agent28/tempin28,/basic/text,write,twenty,1520042472427
+doorlock4,/agent4/doorlock4,/doorLockService,Kitchen,/agent25/heatingcontrol4,/thermostat,room_6,/agent25/heatingcontrol4,/thermostat,write,0,1520087219064
+washingmachine1,/agent6/washingmachine1,/washingService,Bathroom,/agent5/battery2,/batteryService,Garage,/agent5/battery2/charging,,lockSubtree,,1520069804234
+heatingcontrol1,/agent1/heatingcontrol1,/thermostat,BedroomChildren,/agent1/tempin1,/sensorService,BedroomParents,/agent1/tempin1,/sensorService,write,0.0,1520069804248
+battery4,/agent11/battery4,/batteryService,Kitchen,/agent11/movement11,/movementSensor,Watterroom,/agent11/movement11/movement,/derived/boolean,read,0,1520048638045
+lightcontrol25,/agent25/lightcontrol25,/lightControler,room_6,/agent20/tempin20,/sensorService,room_1,/agent20/tempin20,/sensorService,read,3.24,1520041043125
+lightcontrol25,/agent25/lightcontrol25,/lightControler,room_6,/agent22/tempin22,/sensorService,room_3,/agent22/tempin22,/sensorService,read,3.24,1520041043187
